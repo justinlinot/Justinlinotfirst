@@ -1,0 +1,269 @@
+/* defines the paramaters of all header sections */
+
+header {
+    text-align: center;
+    color:black;
+    font-size: 3vw;
+    margin: top 1.5vw; 
+    margin-bottom:30px;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+}
+
+/* defines the paramaters of (play) button on page one */
+
+.play-button button {
+    color:black;
+    font-size: 1vw;
+    margin: auto;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #199319;
+    color: #ffffff;
+
+}
+/* defins the paramaters of the main body of each page */
+
+body{
+    justify-content: center;
+    text-align: center;
+}
+
+/* defines the paramaters of the table header cells of both tables */
+ /*table borders are collapsed to make a single border for each cell */
+
+ table, th {
+    border: .125vw solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    width: 75vw;
+    height: 5vw;
+    border: 1px solid #000000;
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+    padding: .5vw;
+    border: .125vw solid #000000;
+    background-color: #f14819;
+    
+  }
+ /* defines the paramaters of the table data cells of both tables */
+ /*table borders are collapsed to make a single border for each cell */
+
+ td {
+    border: .125vw solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 75vw;
+    height: 5vw;
+    border: 1px solid black;
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+    padding: .5vw;
+    border: .125vw solid black;
+    background-color: #eac3bb;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+}
+ td:hover{
+    background-color: yellow;
+
+ }
+/*defines paramaters of container for (player turn)*/
+
+.player-turn-container {
+    display: flex;
+    width: 11vw;
+    margin: 1vw auto;
+    padding: 10px;
+    
+}
+
+/* defines outer styling for (player turn) paramaters*/
+
+.player-turn {
+    display: flex;
+    margin: auto;
+
+}
+
+/* defines inner styling for (player turn)*/
+
+.player-turn p {
+    font-weight: normal;
+    font-size: 2.25vw;
+    color: #000000;
+    margin: auto;
+   
+}
+
+/* defines the paramaters of the (score container) sections */
+
+.score-container{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+
+}
+
+/* defines the paramaters of all (player score) sections */
+
+.player-score {
+    font-size: 3vw;
+    margin-top: 2em;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+/* stylizes various buttons and hover as defined by class name across all pages */
+
+.guess-button {
+    background-color: #199319;
+    color: #ffffff;
+}
+
+.guess-button:hover {
+    background-color: #ffff00;
+    color: #000000;
+
+}
+
+.pass-button {
+    background-color: #199319;
+    color: #ffffff;
+
+}
+
+.pass-button:hover {
+    background-color: #ffff00;
+    color: #000000;
+
+}
+
+.next-round-button button {
+    color:black;
+    font-size: 2vw;
+    float: right;
+    margin-right: 2em;
+    background-color: #199319;
+    color: #ffffff;
+}
+
+/* next-round-button applies to next round and final buttons on pages two and three */oz
+
+.next-round-button button:hover {
+    background-color: #ffff00;
+    color: #000000;
+
+}
+
+/*defines style for final category section and question sections on final page */
+
+.final-category-container {
+    display: flex;
+    width: 75vw; 
+    height: 5vw; 
+    border: 1px solid black; 
+    position: relative;
+    margin: auto;
+    margin-top: 20px auto;
+    max-width: calc(90% - 20px);
+    padding: 1px;
+    background-color: #f14819;
+
+}
+
+.final-category {
+    display: flex;
+    margin: auto;
+
+}    
+
+.final-category p {
+    font-weight: normal;
+    font-size: 1.5vw;
+    color: #000000;
+    margin: auto;
+    max-width: calc(100% - 20px);
+    padding: 1vw;
+
+}
+
+.final-question-container {
+    display: flex;
+    width: 75vw; 
+    height: 20vw; 
+    border: 1px solid black; 
+    position: relative;
+    margin: auto;
+    margin: 20px auto;
+    max-width: calc(90% - 20px);
+    padding: 1px;
+    background-color: #eac3bb;
+
+}
+
+.final-question {
+    display: flex;
+    margin: auto;
+    
+}
+
+.final-question p {
+    font-weight: normal;
+    font-size: 2vw;
+    color: #000000;
+    margin: auto;
+    max-width: calc(100% - 20px);
+    padding: 1vw;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+/* defines the paramaters of player input   */
+
+.action form{
+    display: block;
+    margin-bottom: 0vw;
+    width: 100%;
+    padding: 0vw;
+
+}
+
+/*adds color to the inside of all player input boxes*/
+
+input, textarea {
+    background-color : #9cf;
+    color : #000;
+
+}
+
+    
+/* defines the paramaters of (bet) button on page four */
+
+.bet-button button {
+    font-size: 1vw;
+    margin: auto;
+    padding: .5vw;
+    margin-top: 1vw;
+    background-color: #199319;
+    color: #ffffff;
+    
+}
+
+
+/* defines the paramaters of footer on all pages */
+
+footer {
+    text-align: center;
+    color:black;
+    font-size: 1vw;
+    margin: top 3vw;
+    margin-bottom:2vw;
+    margin: auto;
+    max-width: calc(100% - 20px);
+    padding: 2vw;
+
+}    
